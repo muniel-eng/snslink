@@ -1,0 +1,37 @@
+/* ページ全体のフォント設定 */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* リストのスタイルを削除 */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* リストアイテムに余白と縁取りを追加 */
+li {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+/* リンクのスタイルを変更 */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* マウスオーバー時のリンクのスタイルを変更 */
+a:hover {
+  text-decoration: underline;
+}
+
+/* ページタイトルのスタイルを変更 */
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 30px;
+}
